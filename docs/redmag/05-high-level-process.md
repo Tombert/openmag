@@ -15,8 +15,8 @@ At a high level, preparing a compatible REDMAG SSD involves:
 This guide avoids step-by-step flashing instructions.
 Instead, it focuses on understanding the process and associated risks.
 
+
+
 ---
-**Navigation**
-- **Previous:** [Recording restrictions](04-recording-restrictions.md)
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [MP Tools overview](06-mp-tools-overview.md)
+
+[← Recording restrictions](04-recording-restrictions.md) | **High-level process** | [MP Tools overview →](06-mp-tools-overview.md)

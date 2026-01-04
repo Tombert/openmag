@@ -26,6 +26,8 @@ documented separately.
 This documentation is educational. Modifying SSDs can permanently damage hardware
 and void warranties. Proceed only if you understand the risks.
 
+
+
 ---
-**Navigation**
-- **Next:** [What is REDMAG?](01-what-is-redmag.md)
+
+  | **REDMAG Index** | [What is REDMAG? →](01-what-is-redmag.md)

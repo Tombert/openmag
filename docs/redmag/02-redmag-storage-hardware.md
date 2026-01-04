@@ -27,8 +27,8 @@ For these reasons, **mSATA is currently the recommended approach**.
 
 > Placeholder: hardware photos and PCB diagrams
 
+
+
 ---
-**Navigation**
-- **Previous:** [What is REDMAG?](01-what-is-redmag.md)
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [REDMAG validation model](03-redmag-validation-model.md)
+
+[← What is REDMAG?](01-what-is-redmag.md) | **REDMAG storage hardware** | [REDMAG validation model →](03-redmag-validation-model.md)

@@ -20,7 +20,8 @@ Both types communicate using the SATA protocol.
 
 NVMe-based SSDs are **not compatible** and will not work.
 
+
+
 ---
-**Navigation**
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [REDMAG storage hardware](02-redmag-storage-hardware.md)
+
+[← REDMAG Index](README.md) | **What is REDMAG?** | [REDMAG storage hardware →](02-redmag-storage-hardware.md)

@@ -15,8 +15,8 @@ non-approved media.
 
 Properly matching both the model name and capacity removes these limitations.
 
+
+
 ---
-**Navigation**
-- **Previous:** [REDMAG validation model](03-redmag-validation-model.md)
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [High-level process](05-high-level-process.md)
+
+[← REDMAG validation model](03-redmag-validation-model.md) | **Recording restrictions** | [High-level process →](05-high-level-process.md)

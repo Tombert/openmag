@@ -24,8 +24,8 @@ but results are never guaranteed.
 
 > Placeholder: MP Tool screenshots
 
+
+
 ---
-**Navigation**
-- **Previous:** [High-level process](05-high-level-process.md)
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [Adapters and power](07-adapters-and-power.md)
+
+[← High-level process](05-high-level-process.md) | **MP Tools overview** | [Adapters and power →](07-adapters-and-power.md)

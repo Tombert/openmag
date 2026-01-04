@@ -19,8 +19,8 @@ This enables experimentation with:
 
 Any custom solution must still present a valid SATA device to the camera.
 
+
+
 ---
-**Navigation**
-- **Previous:** [MP Tools overview](06-mp-tools-overview.md)
-- **Up:** [REDMAG Index](README.md)
-- **Next:** [Known gotchas](08-known-gotchas.md)
+
+[← MP Tools overview](06-mp-tools-overview.md) | **Adapters and power** | [Known gotchas →](08-known-gotchas.md)

@@ -13,7 +13,8 @@ Always validate changes incrementally and document results.
 
 This list will grow as the community contributes findings.
 
+
+
 ---
-**Navigation**
-- **Previous:** [Adapters and power](07-adapters-and-power.md)
-- **Up:** [REDMAG Index](README.md)
+
+[← Adapters and power](07-adapters-and-power.md) | **Known gotchas** |
