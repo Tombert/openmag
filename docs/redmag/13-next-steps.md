@@ -7,6 +7,7 @@
 ### Hardware & Enclosures
 - Design and 3D print SSD enclosures
 - Standardize a reusable RED-compatible PCB
+- There will be a couple different sizes (mSATA and M.2 Sata)
 - Reduce cost to:
   - PCB
   - SSD
