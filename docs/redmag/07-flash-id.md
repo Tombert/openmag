@@ -4,10 +4,15 @@
 
 ## Identifying Controller and NAND (FLASH_ID)
 
+It's recommended you download the SMI Flash ID tool. This will scan your connected SSD and show the Controller, NAND, Firmware, and other info. Very helpful. You can download this tool here:
+
+http://vlo.name:3000/ssdtool/
+
+Look for SMI flash id (PATA,SATA,CF,SD) under the SMI Utility section.
+
 With the SSD connected and detected by Windows:
 
-1. Download the **FLASH_ID / SATA ID tool**  
-2. Run the `sata_id.exe`
+1. Run the SMI Flash Tool (sata id)
 3. Select the SSD when prompted
 4. If successful, the tool will display:
    - Controller model
