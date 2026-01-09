@@ -2,9 +2,6 @@
   <img src="assets/logo.jpg" alt="openMAG logo" />
 </p>
 
-<br />
-<br />
-
 The openMAG Project is an open-source, community-driven educational project focused on understanding cinema camera SSD media,
 with an emphasis on REDMAG and MINIMAG, and documenting the concepts and validation workflows involved.
 
@@ -115,53 +112,3 @@ That attribution helps the community find improvements and keeps the ecosystem c
 For now, use GitHub Issues and Pull Requests:
 - Issues: questions, doc improvements, research notes
 - Pull requests: proposed changes with clear reasoning and evidence when applicable
-
-## TL;DR: Upgrading REDMAGs with Custom SSDs
-
-### Key Points
-- **REDMAG** firmware only checks: (1) SSD model number and (2) reported capacity
-- Maximum capacity: **512GB** (hardcoded whitelist limitation)
-- Model number must match [approved whitelist](https://github.com/openmag-project/openmag/blob/main/docs/redmag/whitelist-overview.md)
-- Capacity must exactly match what's embedded in the model number (e.g., *RED 512GB V4*)
-- No `0x90h` value concerns like with MINIMAG
-
-### Modifying SSD Identity
-**The Challenge:** Changing model number and capacity requires professional tools or **MP Tools (Mass Production Tools)**
-
-**MP Tool Requirements:**
-- Windows-only
-- Will trigger antivirus false positives (normal behavior)
-- Must match your specific SSD controller and NAND chips
-- Usually found on foreign websites (Chinese/Russian forums)
-- Recommended source: [https://www.usbdev.ru/files/#gsc.tab=0](https://www.usbdev.ru/files/#gsc.tab=0)
-
-### SSD Selection Tips
-**Controllers:** SSDs with **SMI (Silicon Motion)** controllers are easier—leaked MP Tools more available. Avoid major brands (Toshiba, Samsung) as MP Tools are rarely leaked.
-
-**Form Factors Tested:** M.2 SATA, mSATA, microSATA, 2.5" SSDs all work (camera reads SATA data)
-
-**Best Choice:** **mSATA-based REDMAGs** are easiest to work with
-
-**Avoid:** microSATA (discontinued, requires unreliable adapters with voltage/grounding issues)
-
-**Specifications:** DRAM-based SSDs preferred over DRAM-less for cinema use
-
-**Power Note:** 2.5" SSDs need external 5V power (camera only handles data connection)—not practical outside testing
-
-### Cost Reference
-- **64GB REDMAG** → **512GB upgrade**: ~$70/REDMAG + ~$100/SSD
-
-### openMAG Project
-**GitHub:** [https://github.com/openmag-project/openmag/tree/main](https://github.com/openmag-project/openmag/tree/main)
-
-**Goals:**
-- Educational documentation for REDMAG and MINIMAG modifications
-- Free 3D-printable shells for mSATA/M.2 SATA drives
-- Custom PCB pass-through boards (only paid component—minimal cost)
-- Upcoming YouTube tutorial
-
-### Next Steps
-1. Research MP Tools on YouTube to understand SSD compatibility
-2. Identify your SSD controller and NAND chips before purchasing
-3. Use AI tools (ChatGPT, Claude) to help throughout the process
-4. Check the openMAG GitHub for detailed documentation
